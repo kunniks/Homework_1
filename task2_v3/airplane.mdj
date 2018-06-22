@@ -1084,7 +1084,7 @@
 											"top": 691,
 											"width": 286.5498046875,
 											"height": 18,
-											"text": "+number: int",
+											"text": "-number: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1101,7 +1101,7 @@
 											"top": 711,
 											"width": 286.5498046875,
 											"height": 18,
-											"text": "+airplanesOnEarth: Airplane[0..*]",
+											"text": "-airplanesOnEarth: Airplane[0..*]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1118,7 +1118,7 @@
 											"top": 731,
 											"width": 286.5498046875,
 											"height": 18,
-											"text": "+empty: boolean",
+											"text": "-empty: boolean",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3431,6 +3431,7 @@
 								"$ref": "CvC44KD7UkKD++BdgNPo5gAA"
 							},
 							"name": "number",
+							"visibility": "private",
 							"type": "int"
 						},
 						{
@@ -3440,6 +3441,7 @@
 								"$ref": "CvC44KD7UkKD++BdgNPo5gAA"
 							},
 							"name": "airplanesOnEarth",
+							"visibility": "private",
 							"type": {
 								"$ref": "FXTA4MyloUWq3OmiU5qmaQAA"
 							},
@@ -3452,6 +3454,7 @@
 								"$ref": "CvC44KD7UkKD++BdgNPo5gAA"
 							},
 							"name": "empty",
+							"visibility": "private",
 							"type": "boolean"
 						}
 					],
@@ -11203,7 +11206,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 644,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTmETYiWU="
@@ -11389,7 +11392,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 708,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTmETiA0U="
@@ -11575,7 +11578,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 764,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTmUTsOtU="
@@ -11947,7 +11950,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 876,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTmUUAmdc="
@@ -12825,7 +12828,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 24,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTmkUoA94="
@@ -12873,7 +12876,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 60,
-									"width": 122,
+									"width": 110,
 									"height": 22
 								},
 								{
@@ -13028,7 +13031,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 96,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTm0Uz4jc="
@@ -13214,7 +13217,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 148,
-									"width": 81,
+									"width": 70,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFkGSbTm0U9xUk="
