@@ -1,0 +1,4 @@
+
+*.vpp.bak_*
+*.vpp.bak
+*.lck
