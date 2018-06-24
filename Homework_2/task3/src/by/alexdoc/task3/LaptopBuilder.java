@@ -1,4 +1,4 @@
-package by.alexdoc.task3v3;
+package by.alexdoc.task3;
 
 public class LaptopBuilder implements IAssemblyLine {
 	
