@@ -1,4 +1,4 @@
-package by.alexdoc.task3;
+package by.alexdoc.task3v3;
 
 public class LaptopMonitor implements IProductPart {
 	private String name = "монитор";
