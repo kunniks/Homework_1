@@ -1,4 +1,9 @@
-
+# StarUML, Visual Paradigma template
 *.vpp.bak_*
 *.vpp.bak
 *.lck
+
+# Eclipse template
+/*/*/bin/
+*.classpath
+*.project
