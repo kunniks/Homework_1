@@ -4,7 +4,9 @@ public class LaptopMonitor implements IProductPart {
 	private String name = "монитор";
 	
 	public LaptopMonitor() {
-		System.out.println("Берем со склада деталь: " + name + " ноутбука");
+		
+		System.out.println("Создается деталь: " + name + " ноутбука");
+	
 	}
 	
 }

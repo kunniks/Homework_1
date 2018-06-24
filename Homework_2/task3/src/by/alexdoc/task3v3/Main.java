@@ -11,7 +11,16 @@ public class Main {
 
 	private static void start() {
 		
-		LaptopBuilder laptopBuilder = new LaptopBuilder();
+		LaptopMotherboardBuilder newLaptopMotherboardBuilder = new LaptopMotherboardBuilder();
+		LaptopCaseBuilder newLaptopCaseBuilder = new LaptopCaseBuilder();
+		LaptopMonitorBuilder newLaptopMonitorBuilder = new LaptopMonitorBuilder();
+
+		LaptopBuilder laptopBuilder = new LaptopBuilder(
+				newLaptopMotherboardBuilder, 
+				newLaptopCaseBuilder, 
+				newLaptopMonitorBuilder
+				);
+		
 		IProduct laptop = new Laptop();
 		laptopBuilder.assembleProduct(laptop);
 		

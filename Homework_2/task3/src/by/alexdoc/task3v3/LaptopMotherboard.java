@@ -5,7 +5,9 @@ public class LaptopMotherboard implements IProductPart {
 	private String name = "материнская плата";
 
 	public LaptopMotherboard() {
-		System.out.println("Берем со склада деталь: " + name + " ноутбука");
+		
+		System.out.println("Создается деталь: " + name + " ноутбука");
+	
 	}
 	
 }

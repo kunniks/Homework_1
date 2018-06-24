@@ -2,23 +2,23 @@ package by.alexdoc.task3v3;
 
 public class LaptopBuilder implements IAssemblyLine {
 	
-	private IProductPart motherBoard;
+	private IProductPart laptopMotherboard;
 	private IProductPart laptopCase;
 	private IProductPart laptopMonitor;
 	
-	public LaptopBuilder() {
+	public LaptopBuilder(ILineStep mb, ILineStep c, ILineStep m) {
 		
 		System.out.println("Включаем аппарат по сборке ноутбуков");
-		motherBoard = new LaptopPartBuilder(new LaptopMotherboard()).buildProductPart();
-		laptopCase = new LaptopPartBuilder(new LaptopCase()).buildProductPart();
-		laptopMonitor = new LaptopPartBuilder(new LaptopMonitor()).buildProductPart();
+		laptopMotherboard = mb.buildProductPart();
+		laptopCase = c.buildProductPart();
+		laptopMonitor = m.buildProductPart();
 
 	}
 
 	@Override
 	public IProduct assembleProduct(IProduct newIProduct) {
 		
-		newIProduct.installFirstPart(motherBoard);
+		newIProduct.installFirstPart(laptopMotherboard);
 		newIProduct.installSecondPart(laptopCase);
 		newIProduct.installThirdPart(laptopMonitor);
 		
